@@ -1,5 +1,5 @@
 import cmd
-from app.weather import collect_weather_display, health, store_weather_data, query_all, collect_batch
+from weather import collect_weather_display, health, store_weather_data, query_all, collect_batch
 import os
 
 class my_shell(cmd.Cmd):
